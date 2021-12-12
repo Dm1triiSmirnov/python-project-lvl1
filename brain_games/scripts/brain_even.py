@@ -18,15 +18,20 @@ def brain_even():
             print('Question: ', num)
             user_answer = input('Your answer: ')
             if user_answer not in ('yes', 'no'):
-                result = f"Answer only 'yes' or 'no'. Any other answer will be rejected.\nLet's try again, {name}!"
+                result = f"Answer only 'yes' or 'no'. " \
+                         f"Any other answer will be rejected." \
+                         f"\nLet's try again, {name}!"
                 break
             elif user_answer == correct_answer:
                 score += 1
                 print('Correct!')
             else:
-                result = f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!"
+                result = f"'{user_answer}' is wrong answer ;(. " \
+                         f"Correct answer was '{correct_answer}'." \
+                         f"\nLet's try again, {name}!"
                 break
     print(result)
+
 
 if __name__ == '__main__':
     brain_even()
