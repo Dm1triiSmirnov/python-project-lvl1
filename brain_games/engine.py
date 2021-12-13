@@ -13,8 +13,8 @@ def start(game):
             result = f'Congratulations, {name}'
             break
         else:
-            num, correct_answer = game.get_game_data()
-            print('Question: ', num)
+            question, correct_answer = game.get_game_data()
+            print('Question: ', question)
             user_answer = input('Your answer: ')
             if user_answer == correct_answer:
                 score += 1
