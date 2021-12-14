@@ -9,6 +9,3 @@ def get_game_data():
     question = str(randrange(1, 101)) + symbol + str(randrange(1, 101))
     correct_answer = str(eval(question))
     return question, correct_answer
-
-
-get_game_data()
