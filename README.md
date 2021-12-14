@@ -8,3 +8,6 @@
 
 2. brain-calc game demonstration:
 <a href="https://asciinema.org/a/TILDoTKkwvJCtZaGBertcI7BW" target="_blank"><img src="https://asciinema.org/a/TILDoTKkwvJCtZaGBertcI7BW.svg" /></a>
+
+3. brain-gcd demonstration:
+<a href="https://asciinema.org/a/w204wF2cyIxKTKmreA1QddSnN" target="_blank"><img src="https://asciinema.org/a/w204wF2cyIxKTKmreA1QddSnN.svg" /></a>
