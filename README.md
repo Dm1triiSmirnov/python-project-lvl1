@@ -11,3 +11,6 @@
 
 3. brain-gcd demonstration:
 <a href="https://asciinema.org/a/w204wF2cyIxKTKmreA1QddSnN" target="_blank"><img src="https://asciinema.org/a/w204wF2cyIxKTKmreA1QddSnN.svg" /></a>
+
+4. brain-progression demonstration:
+<a href="https://asciinema.org/a/Af85dvUmGI2qRON5LUCG5hqx8" target="_blank"><img src="https://asciinema.org/a/Af85dvUmGI2qRON5LUCG5hqx8.svg" /></a>
