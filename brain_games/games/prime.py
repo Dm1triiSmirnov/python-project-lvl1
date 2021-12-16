@@ -15,6 +15,3 @@ def get_game_data():
             else:
                 correct_answer = 'yes'
     return question, correct_answer
-
-
-print(get_game_data())
