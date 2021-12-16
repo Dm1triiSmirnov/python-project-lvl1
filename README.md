@@ -6,9 +6,11 @@
 
 <h1>Project description:</h1>
 
-Dependencies: 
-Python = "^3.8"
-prompt  = "^0.4.1"
+Dependencies:
+<ul>
+<li>Python = "^3.8"
+<li>prompt  = "^0.4.1"
+</ul>
 
 "Brain-games" contains 5 console games. Each game asks questions that need to be answered correctly. 
 After three correct answers, the game is considered to be passed. Wrong answers end the game and offer to play it again.
@@ -31,18 +33,19 @@ After three correct answers, the game is considered to be passed. Wrong answers 
 
 
 <h4>Short videos for demonstration of each game</h4>
-
-1. brain-even
+<ol>
+<li>brain-even
 <a href="https://asciinema.org/a/zvf1oA1kT9GyJSOavdwupNgOs" target="_blank"><img src="https://asciinema.org/a/zvf1oA1kT9GyJSOavdwupNgOs.svg" /></a>
 
-2. brain-calc
+<li>brain-calc
 <a href="https://asciinema.org/a/TILDoTKkwvJCtZaGBertcI7BW" target="_blank"><img src="https://asciinema.org/a/TILDoTKkwvJCtZaGBertcI7BW.svg" /></a>
 
-3. brain-gcd
+<li>brain-gcd
 <a href="https://asciinema.org/a/w204wF2cyIxKTKmreA1QddSnN" target="_blank"><img src="https://asciinema.org/a/w204wF2cyIxKTKmreA1QddSnN.svg" /></a>
 
-4. brain-progression
+<li>brain-progression
 <a href="https://asciinema.org/a/Af85dvUmGI2qRON5LUCG5hqx8" target="_blank"><img src="https://asciinema.org/a/Af85dvUmGI2qRON5LUCG5hqx8.svg" /></a>
 
-5. brain-prime
+<li>brain-prime
 <a href="https://asciinema.org/a/sKROnT9p4xtb1MHTAcqK2A5F2" target="_blank"><img src="https://asciinema.org/a/sKROnT9p4xtb1MHTAcqK2A5F2.svg" /></a>
+</ol>
