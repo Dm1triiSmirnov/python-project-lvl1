@@ -1,4 +1,4 @@
-from brain_games.engine import start
+from brain_games.game_engine.engine import start
 from brain_games.games import prime
 
 
