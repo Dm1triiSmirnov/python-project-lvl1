@@ -6,14 +6,14 @@
 
 <h1>Project description:</h1>
 
-Dependencies:
+"Brain-games" contains 5 console games. Each game asks questions that need to be answered correctly. 
+After three correct answers, the game is considered to be passed. Wrong answers end the game and offer to play it again.
+
+<h4>Dependencies:</h3>
 <ul>
 <li>Python = "^3.8"
 <li>prompt  = "^0.4.1"
 </ul>
-
-"Brain-games" contains 5 console games. Each game asks questions that need to be answered correctly. 
-After three correct answers, the game is considered to be passed. Wrong answers end the game and offer to play it again.
 
 <h4>Installation:</h3>
 <ul>
@@ -32,7 +32,7 @@ After three correct answers, the game is considered to be passed. Wrong answers 
 </ul>
 
 
-<h4>Short videos for demonstration of each game</h4>
+<h4>Short videos for demonstration of each game:</h4>
 <ol>
 <li>brain-even
 <a href="https://asciinema.org/a/zvf1oA1kT9GyJSOavdwupNgOs" target="_blank"><img src="https://asciinema.org/a/zvf1oA1kT9GyJSOavdwupNgOs.svg" /></a>
