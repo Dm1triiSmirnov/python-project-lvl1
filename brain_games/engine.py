@@ -10,7 +10,7 @@ def start(game):
 
     while True:
         if score == 3:
-            result = f'Congratulations, {name}'
+            result = f'Congratulations, {name}!'
             break
         else:
             question, correct_answer = game.get_game_data()
