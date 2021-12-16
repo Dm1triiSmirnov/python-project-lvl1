@@ -3,7 +3,11 @@ name = "hexlet-code"
 version = "0.1.0"
 description = "Package contains 5 console games. Each game asks questions that need to be answered correctly"
 classifiers = [
-    "Programing language :: Python"
+  "DEVELOPMENT STATUS :: 2 - PRE-ALPHA",
+  "OPERATING SYSTEM :: POSIX :: LINUX",
+  "OPERATING SYSTEM :: MICROSOFT :: WINDOWS",
+  "FILTER	PROGRAMMING LANGUAGE :: PYTHON :: 3.8",
+  "TOPIC :: GAMES/ENTERTAINMENT"
 ]
 authors = ["Dm1triiSmirnov <smirnov0719@gmail.com>"]
 repository = "git@github.com:Dm1triiSmirnov/python-project-lvl1.git"
