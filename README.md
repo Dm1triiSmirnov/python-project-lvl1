@@ -49,3 +49,5 @@ After three correct answers, the game is considered to be passed. Wrong answers 
 <li>brain-prime
 <a href="https://asciinema.org/a/sKROnT9p4xtb1MHTAcqK2A5F2" target="_blank"><img src="https://asciinema.org/a/sKROnT9p4xtb1MHTAcqK2A5F2.svg" /></a>
 </ol>
+
+<h4>Happy Pythoning! 🐍</h4>
