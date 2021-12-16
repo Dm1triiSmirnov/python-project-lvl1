@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "python-project-lvl1"
+name = "hexlet-code"
 version = "0.1.0"
 description = "Package contains 5 console games. Each game asks questions that need to be answered correctly"
 authors = ["Dm1triiSmirnov <smirnov0719@gmail.com>"]
