@@ -3,6 +3,7 @@ import prompt
 GREETINGS = 'Welcome to the Brain Games!'
 NAME_REQUEST = 'May I have your name? '
 SAY_HELLO = 'Hello, {}!'
+MAX_SCORE = 3
 
 def start(game):
     print(GREETINGS)
@@ -12,7 +13,7 @@ def start(game):
     score = 0
 
     while True:
-        if score == 3:
+        if score == MAX_SCORE:
             result = f'Congratulations, {name}!'
             break
         else:
