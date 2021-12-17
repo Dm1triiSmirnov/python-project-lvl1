@@ -9,6 +9,7 @@ WIN_MESSAGE = 'Congratulations, {}!'
 QUESTION = 'Question: {}'
 USER_ANSWER = 'Your answer: {}'
 CORRECT = 'Correct!'
+WRONG_ANSWER = "'{}' is wrong answer ;(. " "Correct answer was '{}'.\nLet's try again, {}!"
 
 
 def start(game):
@@ -31,9 +32,6 @@ def start(game):
                 score += 1
                 print(CORRECT)
             else:
-                result = f"'{user_answer}' is wrong answer ;(. " \
-                         f"Correct answer was '{correct_answer}'." \
-                         f"\nLet's try again, {name}!"
+                result = WRONG_ANSWER.format(user_answer, correct_answer, name)
                 break
-
     print(result)
