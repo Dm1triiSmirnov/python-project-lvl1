@@ -4,13 +4,14 @@ GREETINGS = 'Welcome to the Brain Games!'
 NAME_REQUEST = 'May I have your name? '
 SAY_HELLO = 'Hello, {}!'
 MAX_SCORE = 3
+STARTING_SCORE = 0
 
 def start(game):
     print(GREETINGS)
     name = prompt.string(NAME_REQUEST)
     print(SAY_HELLO.format(name))
     print(game.TASK)
-    score = 0
+    score = STARTING_SCORE
 
     while True:
         if score == MAX_SCORE:
