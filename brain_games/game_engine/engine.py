@@ -1,10 +1,13 @@
 import prompt
 
+GREETINGS = 'Welcome to the Brain Games!'
+NAME_REQUEST = 'May I have your name? '
+SAY_HELLO = 'Hello, {}!'
 
 def start(game):
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+    print(GREETINGS)
+    name = prompt.string(NAME_REQUEST)
+    print(SAY_HELLO.format(name))
     print(game.TASK)
     score = 0
 

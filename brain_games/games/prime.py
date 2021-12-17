@@ -2,9 +2,13 @@ from random import randint
 
 TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
+START_OF_RANGE = 2
+END_OF_RANGE = 100
+
+
 
 def get_game_data():
-    question = randint(2, 100)
+    question = randint(START_OF_RANGE, END_OF_RANGE)
     if question == 2:
         correct_answer = 'yes'
     else:
