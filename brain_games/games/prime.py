@@ -8,10 +8,10 @@ END_OF_RANGE = 100
 
 def get_game_data():
     question = randint(START_OF_RANGE, END_OF_RANGE)
-    if question == 2:
+    if question == START_OF_RANGE:
         correct_answer = 'yes'
     else:
-        for i in range(2, question):
+        for i in range(START_OF_RANGE, question):
             if question % i == 0:
                 correct_answer = 'no'
                 break
