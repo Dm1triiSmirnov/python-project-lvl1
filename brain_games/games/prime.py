@@ -6,7 +6,6 @@ START_OF_RANGE = 2
 END_OF_RANGE = 100
 
 
-
 def get_game_data():
     question = randint(START_OF_RANGE, END_OF_RANGE)
     if question == 2:

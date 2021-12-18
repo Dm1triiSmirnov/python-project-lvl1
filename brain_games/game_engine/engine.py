@@ -9,7 +9,8 @@ WIN_MESSAGE = 'Congratulations, {}!'
 QUESTION = 'Question: {}'
 USER_ANSWER = 'Your answer: {}'
 CORRECT = 'Correct!'
-WRONG_ANSWER = "'{}' is wrong answer ;(. " "Correct answer was '{}'.\nLet's try again, {}!"
+WRONG_ANSWER = "'{}' is wrong answer ;(. " "Correct answer was '{}'." \
+               "\nLet's try again, {}!"
 
 
 def start(game):
