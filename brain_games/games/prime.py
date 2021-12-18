@@ -1,4 +1,4 @@
-from random import randint
+import random
 
 TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
@@ -7,7 +7,7 @@ END_OF_RANGE = 100
 
 
 def get_game_data():
-    question = randint(START_OF_RANGE, END_OF_RANGE)
+    question = random.randint(START_OF_RANGE, END_OF_RANGE)
     if question == START_OF_RANGE:
         correct_answer = 'yes'
     else:
@@ -17,4 +17,5 @@ def get_game_data():
                 break
             else:
                 correct_answer = 'yes'
+
     return question, correct_answer
