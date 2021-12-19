@@ -18,7 +18,6 @@ def start(game):
     print(SAY_HELLO.format(name))
     print(game.TASK)
     scores = 0
-
     while True:
         if scores == WIN_SCORE:
             result = WIN_MESSAGE.format(name)
