@@ -18,19 +18,19 @@ def start(game):
     print(SAY_HELLO.format(name))
     print(game.TASK)
     scores = 0
-    while True:
-        if scores == WIN_SCORE:
-            result = WIN_MESSAGE.format(name)
-            break
+
+    while scores < WIN_SCORE:
+        question, correct_answer = game.get_game_data()
+        print(QUESTION_MSG.format(question))
+        user_answer = input()
+        print(USER_ANSWER.format(user_answer))
+        if user_answer == correct_answer:
+            scores += 1
+            print(CORRECT)
         else:
-            question, correct_answer = game.get_game_data()
-            print(QUESTION_MSG.format(question))
-            user_answer = input()
-            print(USER_ANSWER.format(user_answer))
-            if user_answer == correct_answer:
-                scores += 1
-                print(CORRECT)
-            else:
-                result = WRONG_ANSWER.format(user_answer, correct_answer, name)
-                break
+            result = WRONG_ANSWER.format(user_answer, correct_answer, name)
+            break
+    if scores == 3:
+        result = WIN_MESSAGE.format(name)
+
     print(result)
