@@ -7,7 +7,8 @@ END_OF_RANGE = 100
 
 
 def get_game_data():
-    x, y = randint(START_OF_RANGE, END_OF_RANGE), randint(START_OF_RANGE, END_OF_RANGE)
+    x = randint(START_OF_RANGE, END_OF_RANGE)
+    y = randint(START_OF_RANGE, END_OF_RANGE)
     question = f'{x} {y}'
     correct_answer = str(math.gcd(x, y))
     return question, correct_answer
