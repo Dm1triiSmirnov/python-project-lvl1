@@ -6,7 +6,7 @@ SAY_HELLO = 'Hello, {}!'
 WIN_SCORE = 3
 WIN_MESSAGE = 'Congratulations, {}!'
 QUESTION_MSG = 'Question: {}'
-USER_ANSWER = 'Your answer: {}'
+USER_ANSWER = 'Your answer: '
 CORRECT = 'Correct!'
 WRONG_ANSWER = "'{}' is wrong answer ;(. " "Correct answer was '{}'." \
                "\nLet's try again, {}!"
@@ -22,8 +22,7 @@ def start(game):
     while scores < WIN_SCORE:
         question, correct_answer = game.get_game_data()
         print(QUESTION_MSG.format(question))
-        user_answer = input()
-        print(USER_ANSWER.format(user_answer))
+        user_answer = prompt.string(USER_ANSWER)
         if user_answer == correct_answer:
             scores += 1
             print(CORRECT)
