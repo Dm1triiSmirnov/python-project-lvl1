@@ -29,7 +29,7 @@ def start(game):
         else:
             result = WRONG_ANSWER.format(user_answer, correct_answer, name)
             break
-    if scores == 3:
+    if scores == WIN_SCORE:
         result = WIN_MESSAGE.format(name)
 
     print(result)
